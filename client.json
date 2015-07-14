@@ -1,0 +1,15 @@
+{
+  "disable_remote_exec": true,
+  "datacenter": "dc1",
+  "log_level": "INFO",
+  "client_addr": "0.0.0.0",
+  "data_dir": "/tmp/consul",
+  "leave_on_terminate": true,
+  "server": false,
+  "rejoin_after_leave": true,
+  "leave_on_terminate": true,
+  "dns_config": {
+    "allow_stale": true,
+    "max_stale": "1s"
+  }
+}
